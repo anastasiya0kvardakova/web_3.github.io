@@ -1,0 +1,147 @@
+body 
+{
+	font-family: Times new roman;
+	margin: 0;
+	padding: 0;
+}
+
+#menu 
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-color: #9ACEEB;
+	max-width: 100%;
+	padding: 10px;
+}
+
+nav 
+{
+	background-color: #9ACEEB;
+	max-width: 100%;
+}
+
+main
+{
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+footer 
+{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #9ACEEB;
+	text-align: center;
+	max-width: 100%;
+}
+
+#header-con
+{
+	display: flex;
+}
+
+#logo
+{
+	padding: 10px;
+}
+
+#name
+{
+	padding: 10px;
+}
+
+#logo 
+{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#name
+{
+	font-size: 28px;
+	position: relative;
+	top: 40px;
+	width: 100%;
+}
+
+#menu 
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: auto;
+	align-content:flex-start;
+}
+
+#menu li 
+{
+	list-style-type: none;
+}
+
+#menu a 
+{
+	padding: 10px 20px;
+	display: block;
+	font-weight: 1000;
+}
+
+#menu a:hover 
+{
+	background-color: #78A2B7;
+}
+
+#formar
+{
+	order: 1;
+}
+
+#table 
+{
+	order: 3;
+}
+
+#table td
+{
+	text-align: center;
+}
+#table th 
+{
+	text-align: center;
+}
+
+#table .first
+{
+	background-color: #9ACEEB;
+}
+
+#table .second 
+{
+	background-color: #3B83BD;
+}
+
+@media screen and (min-width: 768px) 
+{
+	#menu 
+	{
+		flex-direction: row;
+		justify-content: center;
+	}
+	main, nav, #header-con 
+	{
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	#table
+	{
+		width: 350px;
+		height: 160px;
+		order: 0;
+	}
+}

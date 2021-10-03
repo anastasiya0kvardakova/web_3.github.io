@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<title>Задание 3.</title>
+	</head>
+	<body>
+		<header>
+			<div id="header-con">
+			<img style="float:left" src="https://i.pinimg.com/originals/f6/38/e1/f638e1af2445f8a802607125f7fff4f3.jpg" height="100" alt="Лого" />
+			<div id="name">Название сайта</div>
+			</div>
+		</header>
+		
+			<nav>
+				<ul id="menu">
+					<li><a href="#giper">Гиперссылки</a></li>
+					<li><a href="#formar">Форма</a></li>
+					<li><a href="#table">Таблица</a></li>
+					<li><a href="#footer-click">Подвал</a></li>
+				</ul>
+			</nav>
+			
+		<main>
+		<div id="giper">
+		 <ol>
+            <li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта;</a></li>
+            <li><a href="https://example.com">Абсолютная гиперссылка на главную сайта (https);</a></li>
+            <li><a href="ftp://example.com/text.txt">Ссылка на файл на сервере FTP без авторизации;</a></li>
+            <li><a href="ftp://user:someone@example.com/text.txt">Ссылка на файл на сервере FTP с авторизации;</a></li>
+            <li><a href="https://www.warframe.com/game#warframes">Ссылка на фрагмент страницы некоторого сайта;</a></li>
+            <li><a href="https://example.com/book#three">Ссылка на фрагмент текущей страницы;</a></li>
+            <li><a href="http://example.com?page=1&chapter=3">Ссылка с двумя параметрами в URL;</a></li>
+            <li> 
+                <ul>
+                    <li><a href="http://kubsu.ru" title="Главный сайт КубГу">КубГУ;</a></li>
+                    <li><a href="http://kubsu.ru/university" title="Университет">Университет;</a></li>
+                    <li><a href="http://kubsu.ru/studlife" title="Студентам">Студентам;</a></li>
+                    <li><a href="http://kubsu.ru/science" title="Наука">Наука;</a></li>   
+                </ul>
+            </li>
+            <li><a>ссылка без href;</a></li>
+            <li><a href>ссылка с пустым href;</a></li>
+            <li><a href="http://example.com" rel="nofollow">Ссылка с запрещёным переходом поисковикам;</a></li>
+            <li><a href="http://example.com" rel="noindex">Запрет для индексации поисковиками;</a></li>
+            <li><p><a href="http://exmaple.com">Контекстная ссылка</a></p></li>
+			<li><a href="https://stom-mag.ru/id71017.php"><img src="https://img3.goodfon.ru/wallpaper/nbig/1/69/tyulpan-lepestki-listya-2902.jpg" height="100" alt="Picture"></a></li>
+            <li><img src="https://1.bp.blogspot.com/-XIOyUgVEDCA/WpWQzTXjfDI/AAAAAAAACOI/EBckB3czyukI83hbpD_Bw_jLR6Wm-aLwQCLcBGAs/s1600/Forget-Me-Not-Flower-HD.jpg" alt="flower" width="300" height="300" usemap="#flower"></li>
+            <map name="flower">
+                <area shape="circle" coords="200,200,50" href="https://yandex.ru/images/search?text=%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D1%8B%D0%B5%20%D1%86%D0%B2%D0%B5%D1%82%D1%8B&from=tabbar" alt="голубые-цветы" target="_blank">
+                <area shape="rect" coords="35,60,120,220" href="https://yandex.ru/images/search?text=%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%86%D0%B2%D0%B5%D1%82%D1%8B&from=tabbar" alt="розовые-цветы" target="_blank">
+                </map>
+                       
+            <li><a href="index.html">Относительная ссылка на страницу в текущем каталоге;</a></li>
+            <li><a href="about/news.html">Относительная ссылка на страницу в каталоге about;</a></li>
+            <li><a href="../news.html">Относительная ссылка на страницу в каталоге уровнем выше текущего; </a></li>
+            <li><a href="../../news.html">Относительная ссылка на страницу в каталоге двумя уровнями выше;</a></li>
+            <li><a href="/main">Сокращенная ссылка на главную страницу;</a></li>
+            <li><a href="/internal">Сокращенная ссылка на внутреннюю страницу;</a></li>
+        </ol>
+		</div>
+		
+		<table id="table">
+                <tbody>
+					<tr>
+						<th class="second">№</th>
+						<th class="second">Предмет</th>
+						<th class="second">Баллы</th>
+					</tr>
+			
+					<tr>
+						<td class="first">1</td>
+						<td class="first">Математика</td>
+						<td class="first">74</td>
+					</tr>
+  
+					<tr>
+						<td class="second">2</td>
+						<td class="second">Русский язык</td>
+						<td class="second">83</td>
+					</tr>
+  
+					<tr>
+						<td class="first">3</td>
+						<td class="first">Информатика</td>
+						<td class="first">80</td>
+					</tr>
+  
+					<tr>
+						<td class="second">4</td>
+						<td class="second">Литература</td>
+						<td class="second">91</td>
+					</tr>
+  
+					<tr>
+						<td class="first">5</td>
+						<td class="first">Химия</td>
+						<td class="first">90</td>
+					</tr>
+  
+					<tr>
+						<td class="second"colspan="2">Всего баллов</td>
+						<td class="second">418</td>
+					</tr>
+				</tbody>
+		</table>
+
+
+		<form id="formar">
+			<caption><h4>Форма</h4></caption>
+			<h4><form action="/"
+               method="POST">
+            <label>
+                Ваше ФИО:
+                <br/>
+                <input name="field-name-1" value="Введите имя пользователя"/>
+            </label>
+            <br/>
+
+            <label>
+                E-mail:
+                <br/>
+                <input name="field-email" value="someone@gmail.com" type="email"/>
+            </label>
+            <br>
+            
+            <label>
+                Дата рождения:
+                <br/>
+                <input name="field-date" value="2000-01-01" type="date"/> 
+            </label>
+            <br/>
+
+            Пол:
+            <br/>
+            <label> 
+                <input type="radio" checked="checked" name="field-gender" value="Male"/>
+                Мужской
+            </label>
+            <br/>
+
+            <label> 
+                <input type="radio" checked="checked" name="field-gender" value="Female"/>
+                Женский
+            </label>
+            <br/>
+
+            <label> 
+                <input type="radio" checked="checked" name="field-gender" value="not selected"/>
+                Не выбрано
+            </label>
+            <br/>
+
+            <label> 
+                <input type="radio" checked="checked" name="field-gender" value="not human"/>
+                Не человек и не горошек, я - Йожик
+            </label>
+            <br/>
+
+            Количество конечностей:
+            <br/>
+            <label>
+                <input type="radio" checked="checked" name="limbs" value="4"/>
+                4 штуки
+            </label>
+            <br/>  
+            
+            <label>
+                <input type="radio" checked="checked" name="limbs" value="3"/>
+                3 штуки (2 руки и нога)
+            </label>
+            <br/>  
+
+            <label>
+                <input type="radio" checked="checked" name="limbs" value="3"/>
+                3 штуки (2 ноги и руки)
+            </label>
+            <br/>
+
+            <label>
+                <input type="radio" checked="checked" name="limbs" value="2"/>
+                2 штуки (ноги)
+            </label>
+            <br/>  
+
+            <label>
+                <input type="radio" checked="checked" name="limbs" value="2"/>
+                2 штуки (руки)
+            </label>
+            <br/> 
+
+              <label>
+                <input type="radio" checked="checked" name="limbs" value="1"/>
+                1 штука (рука)
+            </label>
+            <br/> 
+
+               <label>
+                <input type="radio" checked="checked" name="limbs" value="1"/>
+                1 штука (нога)
+            </label>
+            <br/>
+
+            <label>
+                Сверхспособности:
+                <br/>
+                <select name="superpower"
+                 multiple="multiple">
+                    <option value="immortal" selected="selected">Бессмертие</option>
+                    <option value="through-walls">Прохождение сквозь стены</option>
+                    <option value="levitation">Левитация</option>
+                    <option value="use-light">Использование молний</option>
+                    <option value="invisibility">Невидимость</option>
+                </select>
+            </label>
+            <br/>
+
+            <label>
+                Ваша краткая биография. Расскажите что-нибудь о себе...
+                <br/>
+                <textarea name="about-me">Я люблю смотреть на ночное небо...</textarea>
+            </label>
+            <br/>
+
+            <label>
+                С контрактом ознакомлен(а) и претензий не имею
+                <input type="checkbox" checked="checked" name="check-1"/>
+            </label>
+
+            <br>
+            <input type="submit" value="Принять условия и Отправить" />
+        </h4></form>
+		</main>
+
+		<footer id="footer-click">
+			<div>Квардакова Анастасия. 2 курс, группа 27/2, ФКТиПМ</div>
+		</footer>
+	</body>
+</html>
